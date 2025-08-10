@@ -1,14 +1,61 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Phytoplankton Air Systems – Legal</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Legal – Phytoplankton Air Systems</title>
+  <meta name="description" content="Legal and policy documents for the Phytoplankton Air Systems mobile app." />
+  <style>
+    :root{
+      --bg:#ffffff; --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --wash:#f8fafc; --brand:#10b981;
+      --radius:14px; --w:860px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root{ --bg:#0b1220; --ink:#e5e7eb; --muted:#9aa4b2; --line:#1f2a44; --wash:#0f172a; --brand:#34d399; }
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+    a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+    header{border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--wash),transparent)}
+    header .wrap{max-width:var(--w);margin:0 auto;padding:clamp(14px,2vw,22px)}
+    header h1{margin:0 0 4px;font-size:1.6rem}
+    header .meta{color:var(--muted);font-size:.95rem}
+    main{max-width:var(--w);margin:0 auto;padding:clamp(16px,2vw,26px)}
+    ul{list-style:none;padding:0}
+    li{margin:12px 0}
+    .card{background:var(--wash);border:1px solid var(--line);border-radius:12px;padding:14px}
+    footer{max-width:var(--w);margin:0 auto;padding:20px;color:var(--muted);font-size:0.9rem;text-align:center;border-top:1px solid var(--line)}
+  </style>
 </head>
 <body>
-  <h1>Legal Pages</h1>
-  <ul>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="account-deletion.html">Account Deletion</a></li>
-  </ul>
+  <header>
+    <div class="wrap">
+      <h1>Legal Documents</h1>
+      <div class="meta">Phytoplankton Air Systems</div>
+    </div>
+  </header>
+
+  <main>
+    <p>Welcome to our legal resources hub. Here you’ll find our latest privacy and account deletion policies.</p>
+
+    <ul>
+      <li>
+        <div class="card">
+          <a href="privacy.html"><strong>Privacy Policy</strong></a><br/>
+          Learn how we collect, use, and protect your data.
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <a href="account-deletion.html"><strong>Account Deletion</strong></a><br/>
+          Request the permanent removal of your account and data.
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    © 2025 Algaerithms Inc. • All rights reserved
+  </footer>
 </body>
 </html>
